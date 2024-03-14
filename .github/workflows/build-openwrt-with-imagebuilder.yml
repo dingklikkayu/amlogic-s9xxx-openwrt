@@ -294,7 +294,7 @@ jobs:
           allowUpdates: true
           removeArtifacts: false
           replacesArtifacts: true
-          token: ${{ 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 }}
+          token: ${{ secrets.openwrtku }}
           body: |
             ### OpenWrt Image information
             - Default IP: 192.168.1.1
